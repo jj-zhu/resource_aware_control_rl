@@ -1,6 +1,6 @@
 # Reinforcement Learning for Event-Triggered Control
 
-This is the implementation for the algorithm introduced in the following paper. The RL method implementation is based on the OpenAI Baselines framework. If you use this code for research, please kindly cite the paper:
+This is the implementation for the algorithm introduced in [this paper](https://arxiv.org/abs/1809.05152). The RL method implementation is based on the OpenAI Baselines framework. If you use this code for research, please kindly cite the paper:
 ```
 @article{baumann2018deep,
   title={Deep Reinforcement Learning for Event-Triggered Control},
