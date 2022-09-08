@@ -132,7 +132,7 @@ def train(env_id, env, nb_epochs, nb_epoch_cycles, render_eval, reward_scale, re
                         r_com = 0.0
                         action = np.copy(a_raw[2:]) #motor cmd
                     else:
-                       if reward_param_type=='const':
+                        if reward_param_type=='const':
                             r_com = 1. # const reward
                         elif reward_param_type=='linear':
                             r_com = (1.0 / (nb_rollout_steps - reward_param_thr)) * (nb_rollout_steps - num_no_com) # linear interp reward

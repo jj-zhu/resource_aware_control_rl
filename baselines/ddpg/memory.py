@@ -1,5 +1,6 @@
 import numpy as np
-
+import warnings
+warnings.filterwarnings("ignore")
 
 class RingBuffer(object):
     def __init__(self, maxlen, shape, dtype='float32'):
