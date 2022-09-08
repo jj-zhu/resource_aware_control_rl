@@ -20,7 +20,7 @@ setup(name='baselines',
          'progressbar2',
          'mpi4py',
          'cloudpickle',
-         'tensorflow>=1.4.0',
+         'tensorflow==1.4.0',
          'click',
          'matplotlib'
       ],
