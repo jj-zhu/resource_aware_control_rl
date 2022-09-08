@@ -6,7 +6,9 @@
 n_epoch=500
 REW_TYPE="const" # const, inv, linear
 param_val=0.1 # this parameter control the trade-off between the communication freq and performance
-env_name="Pendulum-v0"
+env_name="Pendulum-v1"
+# env_name="InvertedPendulum-v2" # tested on mjpro150, works
+
 seed=0 # use seed to reproduce results
 
 # run script to train the resource aware agent
