@@ -9,19 +9,21 @@ if sys.version_info.major != 3:
 setup(name='baselines',
       packages=[package for package in find_packages()
                 if package.startswith('baselines')],
-      #install_requires=[
+      install_requires=[
       #    'gym[mujoco,atari,classic_control,robotics]',
-      #    'scipy',
-      #    'tqdm',
-      #    'joblib',
-      #    'zmq',
-      #    'dill',
-      #    'progressbar2',
-      #    'mpi4py',
-      #    'cloudpickle',
-      #    'tensorflow>=1.4.0',
-      #    'click',
-      #],
+         'gym[classic_control]',
+         'scipy',
+         'tqdm',
+         'joblib',
+         'zmq',
+         'dill',
+         'progressbar2',
+         'mpi4py',
+         'cloudpickle',
+         'tensorflow>=1.4.0',
+         'click',
+         'matplotlib'
+      ],
       description='ETC using Deep RL code, based on OpenAI Gym',
       author='Jia-Jie Zhu',
       url='https://github.com/jj-zhu')
