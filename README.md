@@ -1,3 +1,5 @@
+**This repository is not maintained. The software is provided "as is", freely. We cannot predict whether it will break after library updates**.
+
 # Reinforcement Learning for Event-Triggered Control
 
 This is the implementation for the algorithm introduced in [this paper](https://arxiv.org/abs/1809.05152). The RL method implementation is based on the OpenAI Baselines framework. If you use this code for research, please kindly cite the paper:
@@ -9,6 +11,8 @@ This is the implementation for the algorithm introduced in [this paper](https://
   year={2018}
 }
 ```
+
+
 ## How to run the code
 To run the simulations, Python version 3.5 or higher is required.
 
